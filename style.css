@@ -1,0 +1,40 @@
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    width: 100%;
+  }
+
+  #nav{
+    /* font-family: something lit; */
+    font-size: 35px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    z-index: 1;
+    background: black;
+}
+
+li{
+    list-style-type: none;
+    text-align: center;
+    float: left;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+li a{
+    display: block;
+    color: #f3c300;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #f3c300;
+    color: black;
+    transition: .7s;
+    box-shadow: 2px 2px 20px whitesmoke;
+    border-radius: 30px;
+}
