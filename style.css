@@ -48,35 +48,45 @@ li a:hover {
     color: white;
     border: none;
     margin: 0;
-  }
-    #para{
-    /* background: url("#") fixed 100px; */
-    background: red;
+}
+
+#para{
+    background: url("images/analyze.gif") fixed;
+    /* background: red; */
     background-size: contain;
     background-repeat: no-repeat;
     border: none;
-    }
-    #para2{
-      /* background: url("#") fixed; */
-      background: yellow;
-      background-size: cover;
-      border: none;
-    }
-    #para3{
-      /* background: url("#") fixed; */
-      background: green;
-      background-size: cover;
-      border: none;
-    }
-    #para4{
-      /* background: url("#") fixed; */
-      background: black;
-      background-size: cover;
-      border: none;
-    }
-    #para5{
-      /* background: url("#") fixed; */
-      background: gray;
-      background-size: cover;
-      border: none;
-    }
+}
+#para2{
+    /* background: url("#") fixed; */
+    background: yellow;
+    background-size: cover;
+    border: none;
+}
+#para3{
+    /* background: url("#") fixed; */
+    background: green;
+    background-size: cover;
+    border: none;
+    display: flex;
+    flex: wrap;
+    /* Items in the classes of js node jquery etc, will be logo iages that are inside of a flex box, clicking on any of the images will take you to the website. */
+}
+#para4{
+    /* background: url("#") fixed; */
+    background: black;
+    background-size: cover;
+    border: none;
+}
+#para5{
+    /* background: url("#") fixed; */
+    background: gray;
+    background-size: cover;
+    border: none;
+}
+.back1{
+    background: black;
+    opacity: .7;
+    margin: 0;
+    padding: 0;
+}
