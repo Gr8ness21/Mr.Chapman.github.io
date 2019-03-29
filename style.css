@@ -1,3 +1,7 @@
+body{
+    background: black;
+    color: whitesmoke;
+}
 ul {
     display: flex;
     margin: 0;
@@ -16,6 +20,7 @@ ul {
     position: fixed;
     z-index: 1;
     background: black;
+    left: 0;
 }
 
 li{
@@ -32,9 +37,46 @@ li a{
     text-decoration: none;
 }
 li a:hover {
-    background-color: #f3c300;
+    background-color: gold;
     color: black;
     transition: .7s;
-    box-shadow: 2px 2px 20px whitesmoke;
+    box-shadow: 2px 2px 20px #f3c300;
     border-radius: 30px;
 }
+#parainner{
+    padding: 300px;
+    color: white;
+    border: none;
+    margin: 0;
+  }
+    #para{
+    /* background: url("#") fixed 100px; */
+    background: red;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    }
+    #para2{
+      /* background: url("#") fixed; */
+      background: yellow;
+      background-size: cover;
+      border: none;
+    }
+    #para3{
+      /* background: url("#") fixed; */
+      background: green;
+      background-size: cover;
+      border: none;
+    }
+    #para4{
+      /* background: url("#") fixed; */
+      background: black;
+      background-size: cover;
+      border: none;
+    }
+    #para5{
+      /* background: url("#") fixed; */
+      background: gray;
+      background-size: cover;
+      border: none;
+    }
