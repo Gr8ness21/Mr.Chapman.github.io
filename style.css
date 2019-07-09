@@ -2,7 +2,12 @@ body{
     background: black;
     color: whitesmoke;
 }
+@font-face {
+    font-family: 'mikey';
+    src: url('fonts/Grotters.ttf');
+  }
 ul {
+    font-family: 'mikey';
     display: flex;
     margin: 0;
     padding: 0;
