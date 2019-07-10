@@ -70,7 +70,7 @@ li a:hover {
     border-radius: 30px;
 }
 #parainner{
-    padding: 300px;
+    padding: 380px;
     color: white;
     border: none;
     margin: 0;
@@ -86,7 +86,7 @@ li a:hover {
 
 .para2{
     /* background: url("#") fixed; */
-    background: yellow;
+    background: #f3c300;
     background-size: cover;
     border: none;
 }
