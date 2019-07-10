@@ -78,10 +78,16 @@ li a:hover {
 
 .para{
     background: url("images/analyze.gif") fixed;
-    background: red;
-    background-size: contain;
+    background-size: 100%;
     background-repeat: no-repeat;
     border: none;
+}
+.back1{
+    background-color: black;
+    z-index: 1;
+    opacity: .7;
+    margin: 0;
+    padding: 0;
 }
 
 .para2{
@@ -92,7 +98,7 @@ li a:hover {
 }
 .para3{
     /* background: url("#") fixed; */
-    background: green;
+    background: whitesmoke;
     background-size: cover;
     border: none;
     display: flex;
@@ -110,12 +116,6 @@ li a:hover {
     background: gray;
     background-size: cover;
     border: none;
-}
-.back1{
-    background: black;
-    opacity: .7;
-    margin: 0;
-    padding: 0;
 }
 
 
