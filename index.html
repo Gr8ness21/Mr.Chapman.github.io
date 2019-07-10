@@ -12,81 +12,71 @@
 </head>
 
 <body>
-    <header>
-        <nav id="nav">
-            <!-- the navigation bar will allow you to click on a section and be sent back up to that section. nav bar will have a feature that makes the tab brighter depending upon which section you are in. -->
-            <ul>
-                <li><a href="#About" onmousedown="">About</a></li>
-                <li><a href="#Experience" onmousedown="">Experience</a></li>
-                <li><a href="#Projects" onmousedown="">Projects</a></li>
-                <li><a href="#Skills" onmousedown="">Skills</a></li>
-                <li><a href="#Contact" onmousedown="">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <nav id="nav">
+        <ul>
+            <li><a href="#section-1">About</a></li>
+            <li><a href="#section-2">Experience</a></li>
+            <li><a href="#section-3">Projects</a></li>
+            <li><a href="#section-4">Skills</a></li>
+            <li><a href="#section-5">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
 
+        <section id="section-1">
+            <div id="parainner" class="back1 para">
+                <h1>About Paul</h1>
+                <h2>My career began in Atlanta fully emersing myself in webdesign with the PerScholas Program and
+                    General
+                    Assembly! I've since learned how to use the skills i've gained to create amazing thigns and work
+                    with
+                    people from all walks of life.
+                    <br><br>
+                    I wonder what’s next...</h2>
+                <h3>images of states with descriptions here</h3>
+            </div>
+        </section>
 
-    <section id="para">
-        <div id="parainner" id="About" class="back1">
+        <h1>Experience</h1>
+        <section id="section-2">
+            <div id="parainner" class="para2">
+                <h1>icons with jquery pop out displays here</h1>
+                <h2>PDF Link to physical resume here</h2>
+            </div>
+        </section>
 
-            <h1>About Paul</h1>
-            <h2>My career began in Atlanta fully emersing myself in webdesign with the PerScholas Program and General
-                Assembly! I've since learned how to use the skills i've gained to create amazing thigns and work with
-                people from all walks of life.
-                <br><br>
-                I wonder what’s next...</h2>
-            <h3>images of states with descriptions here</h3>
-        </div>
-    </section>
-    <h1>Experience</h1>
-    <section id="para2">
-        <div id="parainner" id="Experience">
-            <h1>icons with jquery pop out displays here</h1>
-            <h2>PDF Link to physical resume here</h2>
-        </div>
-    </section>
-    <h1>Projects</h1>
-    <section id="para3">
-        <div id="parainner" id="Projects">
-            <h2>Inside Parainner</h2>
-            <h3>git hub project links here</h3>
-        </div>
-    </section>
-    <h1>Skills</h1>
-    <section id="para4">
-        <div id="parainner" id="Skills">
-            <div class="js">js</div>
-            <div class="html5">html</div>
-            <div class="css3">css</div>
-            <div class="jquery">jquery</div>
-            <div class="node">node</div>
-            <div class="github">git</div>
-            <h2>Inside Parainner</h2>
-        </div>
+        <h1>Projects</h1>
+        <section id="section-3">
+            <div id="parainner" class="para3">
+                <h2>Inside Parainner</h2>
+                <h3>git hub project links here</h3>
+            </div>
+        </section>
 
-    </section>
-    <h1>Contact</h1>
-    <section id="para5">
-        <div id="parainner" id="Contact">
-            <h2>Contact Information Here</h2>
-            <div class="gmail">mail</div>
-            <div class="linked">linkedin</div>
-            <div class="github"><a href="https://github.com/">git</a></div>
-            <!-- each individual div will be a clickable link in the form of a logo that leads you to each page. -->
-        </div>
-    </section>
+        <h1>Skills</h1>
+        <section id="section-4">
+            <div id="parainner" class="para4">
+                <div class="js">js</div>
+                <div class="html5">html</div>
+                <div class="css3">css</div>
+                <div class="jquery">jquery</div>
+                <div class="node">node</div>
+                <div class="github">git</div>
+                <h2>Inside Parainner</h2>
+            </div>
+        </section>
 
-
-
-
-
-
-
-
-
-
-
-
+        <h1>Contact</h1>
+        <section id="section-5">
+            <div id="parainner" class="para5">
+                <h2>Contact Information Here</h2>
+                <div class="gmail">mail</div>
+                <div class="linked">linkedin</div>
+                <div class="github"><a href="https://github.com/">git</a></div>
+                each individual div will be a clickable link in the form of a logo that leads you to each page.
+            </div>
+        </section>
+    </main>
 
 
 
@@ -102,5 +92,8 @@
         </div>
     </footer>
 </body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
 </html>

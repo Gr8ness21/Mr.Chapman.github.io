@@ -1,10 +1,13 @@
 body{
-    background: black;
-    color: whitesmoke;
+    /* background: black;
+    color: whitesmoke; */
+    margin: 0;
 }
-html{
 
+html{
+    scroll-behavior: smooth;
 }
+
 @font-face {
     font-family: 'mikey';
     src: url('fonts/Grotters.ttf');
@@ -18,8 +21,7 @@ ul {
     width: 100%;
   }
 
-#nav{
-    /* font-family: something lit; */
+nav{
     font-size: 35px;
     display: flex;
     justify-content: space-between;
@@ -30,6 +32,22 @@ ul {
     background: black;
     left: 0;
 }
+
+@media (min-height: 300px) {
+    nav ul {
+      position: sticky;
+      top: 0;
+    }
+  }
+  nav ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: white;
+    text-decoration: none;
+  }
+  nav ul li a.current {
+    background: #f3c300;
+  }
 
 li{
     list-style-type: none;
@@ -58,20 +76,21 @@ li a:hover {
     margin: 0;
 }
 
-#para{
+.para{
     background: url("images/analyze.gif") fixed;
-    /* background: red; */
+    background: red;
     background-size: contain;
     background-repeat: no-repeat;
     border: none;
 }
-#para2{
+
+.para2{
     /* background: url("#") fixed; */
     background: yellow;
     background-size: cover;
     border: none;
 }
-#para3{
+.para3{
     /* background: url("#") fixed; */
     background: green;
     background-size: cover;
@@ -80,13 +99,13 @@ li a:hover {
     flex: wrap;
     /* Items in the classes of js node jquery etc, will be logo iages that are inside of a flex box, clicking on any of the images will take you to the website. */
 }
-#para4{
+.para4{
     /* background: url("#") fixed; */
     background: black;
     background-size: cover;
     border: none;
 }
-#para5{
+.para5{
     /* background: url("#") fixed; */
     background: gray;
     background-size: cover;
@@ -99,3 +118,9 @@ li a:hover {
     padding: 0;
 }
 
+
+  footer {
+    grid-column: 1 / 3;
+    background-color: whitesmoke;
+    padding: 5rem 1rem;
+  }
