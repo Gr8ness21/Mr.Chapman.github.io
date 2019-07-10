@@ -2,6 +2,9 @@ body{
     background: black;
     color: whitesmoke;
 }
+html{
+
+}
 @font-face {
     font-family: 'mikey';
     src: url('fonts/Grotters.ttf');
@@ -15,7 +18,7 @@ ul {
     width: 100%;
   }
 
-  #nav{
+#nav{
     /* font-family: something lit; */
     font-size: 35px;
     display: flex;
@@ -95,3 +98,4 @@ li a:hover {
     margin: 0;
     padding: 0;
 }
+
